@@ -4,7 +4,13 @@ Loan Data Analysis (2007-2011):
 
 Analyzing historical loan data to uncover key insights for better financial risk management and decision-making.
 
-# General Information:
+## Table of Contents
+* [General Info](#general-information)
+* [Technologies Used](#technologies-used)
+* [Conclusions](#conclusions)
+* [Acknowledgements](#acknowledgements)
+
+## General Information:
 
 ### Project Overview: 
 
@@ -20,8 +26,21 @@ The primary question addressed is: What are the main factors affecting loan defa
 ### Dataset: 
 The dataset consists of loan records from [source, e.g., Lending Club], featuring variables such as loan_amnt, int_rate, grade, purpose, and loan_status.
 
+## Technologies Used
 
-# Conclusions
+### Python Libraries:
+
+pandas - version 2.2.2: For data manipulation and analysis
+
+numpy - version 1.26.4: For numerical computations
+
+matplotlib - version 3.8.4: For creating basic plots and visualizations
+
+seaborn - version 0.13.2: For enhanced data visualization
+
+scipy - version 1.13.1: For statistical testing and analysis
+
+## Conclusions
 
 ### Key Insight 1: 
 Loan Grades and Default Rates: Loans with lower grades (e.g., grade D or below) exhibit a higher probability of default. This finding suggests that lenders should adopt more stringent criteria for lower-grade loans.
@@ -36,21 +55,7 @@ Purpose Analysis: Loans taken for debt consolidation purposes show a higher rate
 Loan Amount Trends: A positive correlation exists between larger loan amounts and higher interest rates, highlighting the risk associated with high-value loans.
 
 
-# Technologies Used
-
-### Python Libraries:
-
-pandas - version 2.2.2: For data manipulation and analysis
-
-numpy - version 1.26.4: For numerical computations
-
-matplotlib - version 3.8.4: For creating basic plots and visualizations
-
-seaborn - version 0.13.2: For enhanced data visualization
-
-scipy - version 1.13.1: For statistical testing and analysis
-
-# Acknowledgements
+## Acknowledgements
 
 ### Inspiration: 
 The analysis was inspired by the need to improve financial risk management by understanding loan default patterns.
